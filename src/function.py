@@ -226,10 +226,7 @@ def _send_payload(entry_type, payload):
 
 
 def _get_license_key():
-    '''
-    This functions gets New Relic's license key from env vars.
-    '''
-    return os.environ['LICENSE_KEY']
+    return 'f7462ab48bc1fee992a5ab87c707a21b6b1ab893
 
 
 def _get_ingest_service_url(entity_type):
